@@ -11,6 +11,7 @@ class UnboardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     PageController controller = PageController(initialPage: 1);
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
         child: Stack(
           children: [
